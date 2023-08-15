@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .nav-items {
+        @apply cursor-pointer hover:text-[#1C75BC] transition-all duration-500 transform hover:-translate-y-0.5
+    }
+}

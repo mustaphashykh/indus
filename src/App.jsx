@@ -1,9 +1,13 @@
+import Section1 from "./components/Section1"
+import Section2 from "./components/Section2"
+
 function App() {
 
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <Section1 />
+      <Section2 />
+    </>
   )
 }
 
