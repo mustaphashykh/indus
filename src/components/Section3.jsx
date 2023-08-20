@@ -1,6 +1,6 @@
 import MIC from '../assets/images/MIC (LOGO).svg'
 import LOGO from '../assets/images/Automation we provide with (LOGO).svg'
-import siri from '../assets/images/siri.png'
+import siri from '../assets/images/Siri.png'
 import alexa from '../assets/images/Alexa (LOGO).svg'
 import goggle from '../assets/images/Google Assitant (LOGO).svg'
 import home from '../assets/images/Apple HomeKit (LOGO).svg'
