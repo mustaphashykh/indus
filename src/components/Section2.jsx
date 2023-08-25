@@ -9,12 +9,12 @@ const Section2 = () => {
                     <p className='text-sm px-8'>
                         Innovating Home Automation Solutions for a Smarter Lifestyle, embodies our dedication to revolutionizing the way people interact with their homes. We specialize in developing state-of-the-art technologies that seamlessly integrate and automate various aspects of home living, enhancing convenience, security, and energy efficiency.
                     </p>
-                    <div className='mt-9 text-[#1C75BC] ring-1 ring-[#1C75BC] w-32 text-center py-2 rounded-full'>
+                    <div className='mt-9 text-[#1C75BC] ring-1 ring-[#1C75BC] w-32 text-center py-2 rounded-full cursor-pointer transition-all transform active:scale-95'>
                         Get a Quote
                     </div>
                 </div>
                 <div className='w-full h-72'>
-                    <img src={Home} alt='side_mockup' className='w-full h-full object-contain object-center' />
+                    <img src={Home} loading='lazy' alt='side_mockup' className='w-full h-full object-contain object-center' />
                 </div>
             </div>
     )
