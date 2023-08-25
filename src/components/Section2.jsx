@@ -14,7 +14,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div className='w-full h-72'>
-                    <img src={Home} loading='lazy' alt='side_mockup' className='w-full h-full object-contain object-center' />
+                    <img src={Home} loading='eager' alt='home' className='w-full h-full object-contain object-center' />
                 </div>
             </div>
     )
