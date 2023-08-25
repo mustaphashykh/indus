@@ -1,10 +1,18 @@
+import { useEffect, useRef } from 'react';
 import back_video from '../assets/images/video.mp4'
 import { NavBAr } from './NavBAr'
 
 const Section1 = () => {
+    const videoRef = useRef(null);
+
+    useEffect(() => {
+        if (videoRef.current) {
+            videoRef.current.play();
+        }
+    }, []);
     return (
         <div className="relative w-full h-screen text-[#FFF]">
-            <video autoPlay muted loop playsInline className="absolute z-0 inset-0 w-full h-screen object-cover">
+            <video ref={videoRef} autoPlay muted loop className="absolute z-0 inset-0 w-full h-screen object-cover">
                 <source src={back_video} type="video/mp4" />
             </video>
             <div className='relative w-full h-screen bg-[#00060ae6]'>
