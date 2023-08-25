@@ -4,7 +4,7 @@ const Section4 = () => {
     return (
         <div className="bg-[#010609] text-[#FFF]">
             <div className='w-full flex flex-col items-center text-center'>
-                <img src={bettle} loading='lazy' alt='side_mockup' className='w-80 h-full object-contain object-center' />
+                <img src={bettle}   alt='side_mockup' className='w-80 h-full object-contain object-center' />
                 <div className='w-full flex flex-col items-center text-center py-28'>
                     <h1 className='text-[#1C75BC] font-bold text-5xl'>
                         Beetle

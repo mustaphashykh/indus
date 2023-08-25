@@ -14,8 +14,8 @@ const Section6 = () => {
                 Experience a new level of control and peace of mind with our innovative home automation solutions. With just a tap on your device, you can ensure that your lights are off, your security system is armed, and your thermostat is set just the way you like it. Stay in touch with the heart of your home, no matter where life takes you.
             </p>
             <div className="pt-7 w-fit flex gap-7">
-                <img src={Apple} loading='lazy' className='w-12' alt='apple-logo' />
-                <img src={Android} loading='lazy' className='w-12' alt='android-logo' />
+                <img src={Apple}   className='w-12' alt='apple-logo' />
+                <img src={Android}   className='w-12' alt='android-logo' />
             </div>
         </div>
     )

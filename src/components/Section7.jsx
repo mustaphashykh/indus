@@ -5,8 +5,8 @@ const Section7 = () => {
     return(
         <div className='px-6 pb-24'>
             <div className="w-full flex items-center justify-center gap-7">
-                <img src={iphone} alt="iphone" loading='lazy' className="w-32 h-72 shrink-0" />
-                <img src={android} alt="android" loading='lazy' className="w-32 h-72 shrink-0 mb-60" />
+                <img src={iphone} alt="iphone"   className="w-32 h-72 shrink-0" />
+                <img src={android} alt="android"   className="w-32 h-72 shrink-0 mb-60" />
             </div>
             <div className='w-full text-center flex flex-col items-center'>
                 <h1 className='text-3xl font-semibold'>Privacy is <span className='text-[#1C75BC]'>priority</span></h1>

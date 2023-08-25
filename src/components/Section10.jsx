@@ -3,7 +3,7 @@ import indus_logo from '../assets/images/Indus-logo.svg'
 const Section10 = () => {
     return (
         <div className="px-8 py-14 bg-[#02090E]">
-            <img src={indus_logo} alt='indus-logo' loading='lazy' className=' w-52' />
+            <img src={indus_logo} alt='indus-logo'   className=' w-52' />
             <div className='bg-[#1C75BC] opacity-60 w-36 h-1 rounded mt-8 mb-14'></div>
             <div className='text-white opacity-50 text-xs font-light tracking-wide'>
                 <p>National Incubation Center, Old Campus Sindh University Hyderabad.</p>

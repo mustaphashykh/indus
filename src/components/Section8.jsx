@@ -34,7 +34,7 @@ const Section8 = () => {
                     {
                         cardData.map((item, index) => {
                             return <div key={index} className='bg-[#0A0C0D] flex-none w-72 h-40 p-7 flex flex-col justify-center items-center shrink-0 ring-1 ring-[#17466a8a] rounded text-center my-0.5 ml-14'>
-                                <img src={item.img} loading='lazy' alt='card-logo' className='w-8 pb-3' />
+                                <img src={item.img}   alt='card-logo' className='w-8 pb-3' />
                                 <h3 className='text-[#1C75BC] text-xl font-semibold'>{item.name}</h3>
                                 <div className='bg-gray-700 opacity-60 w-28 h-0.5 rounded mt-1 mb-3'></div>
                                 <p className='text-xs tracking-wide'>{item.des}</p>

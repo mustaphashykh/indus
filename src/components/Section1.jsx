@@ -4,7 +4,9 @@ import { NavBAr } from './NavBAr'
 const Section1 = () => {
     return (
         <div className="relative w-full h-screen text-[#FFF]">
-            <video src={back_video} className="absolute z-0 inset-0 w-full h-screen object-cover" autoPlay loop muted />
+            <video autoPlay muted loop playsInline className="absolute z-0 inset-0 w-full h-screen object-cover">
+                <source src={back_video} type="video/mp4" />
+            </video>
             <div className='relative w-full h-screen bg-[#00060ae6]'>
                 <NavBAr />
                 <div className='relative w-80 mx-auto py-60'>
