@@ -10,7 +10,7 @@ const Section5 = () => {
                 <h1 className='text-2xl pr-9 font-bold tracking-wide'><span className='text-[#04BB00]'>Pakistan’s</span> first <span>Home Automation</span> System, supporting
                     Apple <span className='text-[#FFBE41]'>Homekit</span>
                 </h1>
-                <div className='bg-gray-700 opacity-60 w-52 h-0.5 rounded my-3'></div>
+                <div className='bg-gray-700 opacity-60 w-36 h-0.5 rounded my-3'></div>
                 <p className='text-xs pr-12'>
                     Presenting Pakistan’s pioneering Home Automation System, offering seamless functionality without the need for any additional App installations.
                 </p>
