@@ -10,7 +10,7 @@ const Section4 = () => {
                         Beetle
                     </h1>
                     <div className='bg-gray-700 opacity-60 w-52 lg:w-96 h-0.5 rounded my-6 lg:my-10'></div>
-                    <p className='lg:text-3xl lg:font-semibold lg:text-center lg:px-12 lg:w-[66rem] bg-pink-800'>
+                    <p className='lg:text-3xl lg:font-semibold lg:text-center lg:px-12 lg:w-[66rem]'>
                     Pakistan first-ever home automation device, revolutionizing the way you interact with your home.
                     </p>
                 </div>
