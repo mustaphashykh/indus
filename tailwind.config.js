@@ -11,7 +11,7 @@ export default {
       }, width: {
         'section2-image': '30rem',
         'section3-card' : '35rem',
-        'section3-slider-card': '56rem',
+        'section3-slider-card': '73rem',
       }
     },
   },
