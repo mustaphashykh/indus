@@ -2,7 +2,7 @@ import Home from '../assets/images/Apple HomeKit (BIG-LOGO).svg'
 
 const Section5 = () => {
     return (
-        <div className="bg-[#010609] text-[#FFF] h-72 grid grid-cols-3">
+        <div className="bg-[#010609] text-[#FFF] h-72 grid grid-cols-3 lg:py-28">
             <div className=''>
                 <img src={Home}   alt='side_mockup' className='absolute -left-24 lg:-left-10 h-72 lg:h-96 object-contain object-center' />
             </div>
